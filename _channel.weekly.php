@@ -1,0 +1,1 @@
+<p>Check out this week's <a href="http://www.iwu.edu/weekly/">Campus Weekly</a>, news for and about the Illinois Wesleyan community. You can check it out online or <a href="http://lists.iwu.edu/mailman/listinfo/weekly">go here to subscribe</a>.</p>
