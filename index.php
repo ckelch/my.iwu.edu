@@ -221,9 +221,9 @@ section div.hiddenChannel {
 		$channels['classified']->addContext('post', '_channel.classified.post.php');
 		$channels['classified']->addClass('blocks');
 
-		$channels['wesn'] = new Channel('wesn', 'WESN');
-		$channels['wesn']->addContext('default', '_channel.wesn.php');
-		$channels['wesn']->addClass('blocks');
+		//$channels['wesn'] = new Channel('wesn', 'WESN');
+		//$channels['wesn']->addContext('default', '_channel.wesn.php');
+		//$channels['wesn']->addClass('blocks');
 
 		$channels['lost'] = new Channel('lost', 'Lost and Found');
 		$channels['lost']->addContext('default', '_channel.lost.php');
@@ -236,14 +236,17 @@ section div.hiddenChannel {
 		$channels['jobs']->addContext('single', '_channel.jobs.single.php');
 		$channels['jobs']->addClass('blocks');
 
-		$channels['weekly'] = new Channel('weekly', 'Campus Weekly');
-		$channels['weekly']->addContext('default', '_channel.weekly.php');
+		//$channels['weekly'] = new Channel('weekly', 'Campus Weekly');
+		//$channels['weekly']->addContext('default', '_channel.weekly.php');
 
 		$channels['athletics'] = new Channel('athletics', 'Titan Athletics');
 		$channels['athletics']->addContext('default', '_channel.athletics.php');
 
         $channels['dosa_forms'] = new Channel('dosa_forms', 'Online Forms');
 		$channels['dosa_forms']->addContext('default', '_channel.dosa_forms.php');
+    
+        $channels['service_requests'] = new Channel('service_requests', 'Service Requests');
+        $channels['service_requests']->addContext('default', '_channel.service_requests.php');
 
         $channels['physical_plant'] = new Channel('physical_plant', 'Physical Plant');
 		$channels['physical_plant']->addContext('default', '_channel.physical_plant.php');
