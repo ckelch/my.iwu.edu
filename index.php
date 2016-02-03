@@ -253,6 +253,9 @@ section div.hiddenChannel {
 
         $channels['helpdesk'] = new Channel('helpdesk', 'ITS Helpdesk');
 		$channels['helpdesk']->addContext('default', '_channel.helpdesk.php');
+    
+        $channels['media'] = new Channel('media', 'Media & Publications');
+		$channels['media']->addContext('default', '_channel.media.php');
 
 		foreach($channels as $name => $channel) {
             if($db->getChannelStatus($name, IWU_Auth::getUser()) === 'hidden') {
