@@ -256,7 +256,10 @@ section div.hiddenChannel {
     
         $channels['media'] = new Channel('media', 'Media & Publications');
 		$channels['media']->addContext('default', '_channel.media.php');
-
+    
+        $channels['student_life'] = new Channel('student_life', 'Student Life');
+		$channels['student_life']->addContext('default', '_channel.student_life.php');
+    
 		foreach($channels as $name => $channel) {
             if($db->getChannelStatus($name, IWU_Auth::getUser()) === 'hidden') {
                 $channel->addClass('hiddenChannel');
