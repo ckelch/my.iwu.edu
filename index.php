@@ -260,7 +260,7 @@ section div.hiddenChannel {
         $channels['student_life'] = new Channel('student_life', 'Student Life');
 		$channels['student_life']->addContext('default', '_channel.student_life.php');
     
-        $channels['departments'] = new Channel('departments', 'Student Life');
+        $channels['departments'] = new Channel('departments', 'Departments & Offices');
 		$channels['departments']->addContext('default', '_channel.departments.php');
     
 		foreach($channels as $name => $channel) {
