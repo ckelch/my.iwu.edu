@@ -242,31 +242,31 @@ section div.hiddenChannel {
 		$channels['athletics'] = new Channel('athletics', 'Titan Athletics');
 		$channels['athletics']->addContext('default', '_channel.athletics.php');
 
-        $channels['dosa_forms'] = new Channel('dosa_forms', 'Online Forms');
+		$channels['dosa_forms'] = new Channel('dosa_forms', 'Online Forms');
 		$channels['dosa_forms']->addContext('default', '_channel.dosa_forms.php');
     
-        $channels['service_requests'] = new Channel('service_requests', 'Service Requests');
-        $channels['service_requests']->addContext('default', '_channel.service_requests.php');
+		$channels['service_requests'] = new Channel('service_requests', 'Service Requests');
+		$channels['service_requests']->addContext('default', '_channel.service_requests.php');
 
-        $channels['physical_plant'] = new Channel('physical_plant', 'Physical Plant');
+		$channels['physical_plant'] = new Channel('physical_plant', 'Physical Plant');
 		$channels['physical_plant']->addContext('default', '_channel.physical_plant.php');
 
-        $channels['helpdesk'] = new Channel('helpdesk', 'ITS Helpdesk');
+		$channels['helpdesk'] = new Channel('helpdesk', 'ITS Helpdesk');
 		$channels['helpdesk']->addContext('default', '_channel.helpdesk.php');
     
-        $channels['media'] = new Channel('media', 'Media & Publications');
+		$channels['media'] = new Channel('media', 'Media & Publications');
 		$channels['media']->addContext('default', '_channel.media.php');
     
-        $channels['student_life'] = new Channel('student_life', 'Student Life');
+		$channels['student_life'] = new Channel('student_life', 'Student Life');
 		$channels['student_life']->addContext('default', '_channel.student_life.php');
     
-        $channels['departments'] = new Channel('departments', 'Departments & Offices');
+		$channels['departments'] = new Channel('departments', 'Departments & Offices');
 		$channels['departments']->addContext('default', '_channel.departments.php');
     
 		foreach($channels as $name => $channel) {
-            if($db->getChannelStatus($name, IWU_Auth::getUser()) === 'hidden') {
-                $channel->addClass('hiddenChannel');
-            }
+			if($db->getChannelStatus($name, IWU_Auth::getUser()) === 'hidden') {
+				$channel->addClass('hiddenChannel');
+			}
 			echo $channel;
 		}
 	?>
