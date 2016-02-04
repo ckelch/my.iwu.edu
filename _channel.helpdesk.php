@@ -1,4 +1,4 @@
-<div id="libchat_40e294ae81a696f95823c14e115ea4bd">&nbsp;</div>
+<div id="libchat_40e294ae81a696f95823c14e115ea4bd" style="height: 250px">&nbsp;</div>
 <script type="text/javascript" src="//v2.libanswers.com/load_chat.php?hash=40e294ae81a696f95823c14e115ea4bd"></script>
 <p>Having trouble with e-mail? Does your computer have a  virus? Or do you have any other question about technology on campus? Ask the Information Technology Services Help Desk!<br />
 <br />
