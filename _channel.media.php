@@ -1,1 +1,1 @@
-<iframe width="100%" frameborder="no" height="600" src="//www.iwu.edu/portal/media-and-publications.html?framed"></iframe>
+<a href="http://blogs.iwu.edu/argus/">The Argus</a><br /> <a href="http://blogs.iwu.edu/">IWU Blogs</a><br /> <a href="/weekly/archive.html">Campus Weekly e-Newsletter Archive</a><br /> <a href="http://blogs.iwu.edu/titantv/">Titan TV</a><br /> <a href="https://www.wesn.org/881/">WESN</a>
