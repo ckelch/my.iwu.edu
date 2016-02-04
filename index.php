@@ -262,6 +262,9 @@ section div.hiddenChannel {
     
 		$channels['departments'] = new Channel('departments', 'Departments & Offices');
 		$channels['departments']->addContext('default', '_channel.departments.php');
+		
+		$channels['forms_handbooks'] = new Channel('forms_handbooks', 'Forms & Handbooks');
+		$channels['forms_handbooks']->addContext('default', '_channel.forms_handbooks.php');
     
 		foreach($channels as $name => $channel) {
 			if($db->getChannelStatus($name, IWU_Auth::getUser()) === 'hidden') {
