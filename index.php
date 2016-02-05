@@ -271,6 +271,9 @@ section div.hiddenChannel {
 		
 		$channels['mailing_lists'] = new Channel('mailing_lists', 'Mailing Lists');
 		$channels['mailing_lists']->addContext('default', '_channel.mailing_lists.php');
+		
+		$channels['councils'] = new Channel('councils', 'Campus Community & Councils');
+		$channels['councils']->addContext('default', '_channel.councils.php');
     
 		foreach($channels as $name => $channel) {
 			if($db->getChannelStatus($name, IWU_Auth::getUser()) === 'hidden') {
