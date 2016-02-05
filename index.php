@@ -209,8 +209,8 @@ section div.hiddenChannel {
 		$channels['announcements']->addContext('create', '_channel.announcements.create.php');
 		$channels['announcements']->addContext('post', '_channel.announcements.post.php');
 
-		//$channels['calendar'] = new Channel('calendar', 'Campus Calendar');
-		//$channels['calendar']->addContext('default', '_channel.calendar.php');
+		$channels['calendar'] = new Channel('calendar', 'Campus Calendar');
+		$channels['calendar']->addContext('default', '_channel.calendar.php');
 
 		//$channels['titantv'] = new Channel('titantv', 'Titan TV Schedule');
 		//$channels['titantv']->addContext('default', '_channel.titantv.php');
