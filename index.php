@@ -22,10 +22,10 @@ if(isset($_POST['action'])) {
 
 $page = new IWU_Template();
 $page->wwwPath = '/its/';
-$page->headTitle = 'Campus Portal';
+$page->headTitle = 'MyIWU';
 $page->headerBG = '/_resources/images/banners/full/aspiration-sculpture.jpg';
 $page->headerDepartment = 'Information Technology Services';
-$page->bodyTitle = 'Campus Portal';
+$page->bodyTitle = 'MyIWU';
 //$page->contactNetID = 'aaubry';
 //$page->newsHeader = 'Campus News &amp; Events';
 //$page->newsFeed = 'news-and-events';
