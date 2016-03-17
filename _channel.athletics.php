@@ -9,5 +9,5 @@ loomington,+IL&amp;hl=en&amp;sll=40.493234,-88.989951&amp;sspn=0.02105,0
 .048752&amp;oq=Shir&amp;t=h&amp;hq=Shirk+Center,&amp;hnear=E+Emerson+St,
 +Bloomington,+McLean,+Illinois+61701&amp;z=16">Google Maps &amp; driving directions</a>.</li>
 <li>The Titan band is loud! You may want to sit further away from the west end of the Tucci Stadium (where they are normally located) if loud music is not your cup of tea. Otherwise, enjoy the upbeat music! :)</li>
-<li>Can't make it to one of the games? Most home games can be <a href="http://client.stretchinternet.com/client/iwu.portal">viewed online here</a>.</li>
+<li>Can't make it to one of the games? Most home games can be <a href="http://portal.stretchinternet.com/iwu/">viewed online here</a>.</li>
 </ul>
